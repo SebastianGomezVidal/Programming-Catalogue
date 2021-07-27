@@ -4,16 +4,16 @@ In this repository I would like to share different code related to the fields of
 
 So far, you can check the following projects:
 
-## _Python_
-### (Pong Game)
-
-![pong](Demo/pong.gif)
-
 ## _Machine Learning_
 ### (Statistical modelling and analysis of second hand cars in the USA market)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master)
 
 https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master
+
+## _Python_
+### (Pong Game)
+
+![pong](Demo/pong.gif)
 
 ## _Android_
 ### (Second Hand Goods Market)
