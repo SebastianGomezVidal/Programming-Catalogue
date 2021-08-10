@@ -13,7 +13,7 @@ https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master
 ## _Python_
 ### (Pong Game)
 
-<img src="./Demo/pomg.gif" width="300" height="300">
+<img src="./Demo/pong.gif" width="300" height="300">
 
 ## _Android_
 ### (Second Hand Goods Market)
