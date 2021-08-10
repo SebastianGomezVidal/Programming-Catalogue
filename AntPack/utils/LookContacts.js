@@ -18,17 +18,14 @@ const LookContacts = () => {
   // Apply change on store
   const dispatch = useDispatch();
 
-  // Matching pattern
+  // Matching searchbar pattern
   const onChangeSearch = query => {
+    setSearchQuery(query);
     if (query !== '') {
-      setSearchQuery(query);
-      dispatch(getList(global.copy));
-      setPattern(
-        list.filter(function (item) {
-          if (item.name.toLowerCase().includes(searchQuery.toLowerCase()))
-            return item;
-        }),
-      );
+        var result = global.copy.filter(function (item){
+              if (item.name.toLowerCase().includes(searchQuery.toLowerCase()))
+                return item });
+        setPattern(result);
     } else {
       setSearchQuery('');
       setPattern(global.copy);
@@ -38,6 +35,7 @@ const LookContacts = () => {
   useEffect(() => {
     dispatch(getList(pattern));
   }, [pattern]);
+
 
   return (
     <Searchbar

@@ -10,7 +10,6 @@ import CardName from '../utils/CardName';
 /* Component to retrieve data from an external
 URL */
 const QueryList = ({nav}) => {
-  
   // Hook to store and retrieve the jsonplaceholder object
   const {list} = useSelector(state => state.listReducer);
 
@@ -24,17 +23,18 @@ const QueryList = ({nav}) => {
     fetch('https://jsonplaceholder.typicode.com/users/')
       .then(response => response.json())
       .then(json => {
-                      dispatch(getList(json));
-                      global.copy = json;})
+        dispatch(getList(json));
+        global.copy = json;
+      })
       .catch(error => console.error(error))
       .finally(() => setLoading(false));
   };
 
   // Run just once
-    useEffect(() => {
-      setLoading(true);
-      getUsers();
-    }, []);
+  useEffect(() => {
+    setLoading(true);
+    getUsers();
+  }, []);
 
   return (
     <View style={{padding: 20}}>
@@ -44,7 +44,9 @@ const QueryList = ({nav}) => {
         <FlatList
           data={list}
           keyExtractor={({id}) => id.toString()}
-          renderItem={({item}) => <CardName id ={item.id} name={item.name} nav={nav} />}
+          renderItem={({item}) => (
+            <CardName name={item.name} id={item.id} nav={nav} />
+          )}
         />
       )}
     </View>
