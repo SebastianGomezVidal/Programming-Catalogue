@@ -32,4 +32,4 @@ https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master
 ## _Web Programming_
 ### (Seat booking system for a Theater/Cinema)
 
-![Cinema Booking Finder Demo](Demo/cinema_booking_demo.gif)
+<img src="./Demo/cinema_booking_demo.gif" width="600" height="400">
