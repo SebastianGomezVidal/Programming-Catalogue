@@ -13,7 +13,7 @@ https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master
 ## _Python_
 ### (Pong Game)
 
-![pong](Demo/pong.gif)
+<img src="./Demo/pomg.gif" width="300" height="300">
 
 ## _Android_
 ### (Second Hand Goods Market)
@@ -26,8 +26,8 @@ https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master
 ![Swiss Train Demo](Demo/train_search.gif)
 
 ## _IOS React Native_
-### (AntPack)
-![AntPack]<img src="./Demo/antpack.gif" width="250" height="600">
+### (AntPack App)
+<img src="./Demo/antpack.gif" width="250" height="600">
 
 ## _Web Programming_
 ### (Seat booking system for a Theater/Cinema)
