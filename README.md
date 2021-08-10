@@ -27,8 +27,7 @@ https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master
 
 ## _IOS React Native_
 ### (AntPack)
-![AntPack]<img src="./Demo/antpack.gif" width="250" height="250">
-![AntPack] <img src = "Demo/antpack.gif" width="250" height="250")>
+![AntPack]<img src="./Demo/antpack.gif" width="250" height="600">
 
 ## _Web Programming_
 ### (Seat booking system for a Theater/Cinema)
