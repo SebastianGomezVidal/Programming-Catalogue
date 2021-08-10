@@ -18,7 +18,7 @@ https://mybinder.org/v2/gh/SebastianGomezVidal/programsCatalog.git/master
 ## _Android_
 ### (Second Hand Goods Market)
 
-![shgm](Demo/buy_1.gif)
+<img src="./Demo/buy1.gif" width="250" height="550">
 
 ## _Android React Native_
 ### (Swiss train Timetables)
